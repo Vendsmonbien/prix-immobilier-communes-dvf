@@ -57,7 +57,7 @@ communes dont le volume de ventes permet un calcul significatif.
 | `part_passoires_dpe_pct` | Part de logements classés F ou G (DPE ADEME, %) ; vide si non calculé |
 | `prix_m2_median_departement` | Prix médian au m² du département (contexte) |
 | `fiabilite` | Niveau de fiabilité : `élevée`, `bonne` ou `indicative` |
-| `url` | Page détaillée de la commune sur vendsmonbien.com |
+| `url` | Page détaillée de la commune sur vendsmonbien.com (vide pour les communes de fiabilité « indicative », qui n'ont pas de page dédiée) |
 
 Le GeoJSON expose un sous-ensemble de ces propriétés (`code_insee`, `nom`,
 `departement`, `prix_m2_median`, `prix_m2_median_maison`, `prix_m2_median_appartement`,
